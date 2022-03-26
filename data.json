@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Kimchi",
+        "spicy": "5",
+        "howlong": "10",
+        "ingredient": "",
+        "howtocook": "Step 1: blah blah blah; Step 2: blah blah blah blah!"
+    },
+    {
+        "name": "Kimchi 2",
+        "spicy": "51",
+        "howlong": "110",
+        "ingredient": "1231",
+        "howtocook": "Step 1: blah blah blah; Step 2: blah blah blah blah!"
+    }
+]

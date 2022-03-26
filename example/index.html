@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Countdown</title>
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="data.json"></script>
+        <script src="script.js" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+  <body>
+
+    <div class="container-game">
+
+        <div class="container-header">  
+          <h1 id="holidayName">Are you a True Lakers fan?</h1>
+          <h2>Answer 5 random questions in 3 seconds each</h2>        
+          <button class="gamestartButton" id="gamestartButton">Start</button>
+        </div>
+        
+        <div class="container-quiz" id="container-quiz" >
+
+          <div class="container-questions">
+            <h3 id="textTimer"></h3>
+            <p id="question">(Question)</p>              
+          </div>
+          
+          <div class="container-answers">
+            <button class="answerButton" id="answerFirstButton" name="answerButtons" onclick="onClickAnswer('answerFirst')"></button>
+            <button class="answerButton" id="answerSecondButton" name="answerButtons" onclick="onClickAnswer('answerSecond')"></button>
+            <button class="answerButton" id="answerThirdButton" name="answerButtons" onclick="onClickAnswer('answerThird')"></button>
+            <button class="answerButton" id="answerFourthButton" name="answerButtons" onclick="onClickAnswer('answerFourth')">Button 4</button>
+          </div>
+          
+          <div class="container-replay">
+            <p id="numberofCorrectAnswers" style="display: block"></p>  
+            <button class="replayButton" id="buttonReplay" style="display:block">Replay</button>
+          </div>
+        </div>    
+      
+      </div>
+      
+  </body>    
+</html>
