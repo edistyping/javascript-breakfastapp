@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+    <script type="text/javascript" src="env.js"></script> 
+
 
 </head>
 
@@ -26,7 +28,7 @@
     <div class="container-main">
         <div class="container-main-header">
             <input types="text" placeholder="Search..."/>
-            <button>Search</button>
+            <button id="searchButton">Search</button>
         </div>
 
         <div class="container-grid">
@@ -39,11 +41,17 @@
                 <p>How to Cook? </p>
             </div>
 
-            <div class="container-grid-items">2</div>
-            <div class="container-grid-items">3</div>  
-            <div class="container-grid-items">4</div>
-            <div class="container-grid-items">5</div>
-        </div>
+            <div class="container-grid-items">
+                <h3 id="header-dishname"></h3>
+                <img id="img-dish" src="" >
+                <p id="p-tests"></p>
+            </div>
+
+            <div class="container-grid-items">
+                <h3 id="header-dishname"></h3>
+                <img id="img-dish" src="">
+                <p id="p-tests"></p>
+            </div>        
     </div>
 
     <footer>

@@ -19,3 +19,22 @@
     => Done by using 'fr' 
 
 
+# Resources
+1. Infinite scroll
+    - https://javascript.plainenglish.io/building-an-infinite-scroll-with-vanilla-javascript-32810bae9a8c
+
+2. spoonacular
+    - https://api.spoonacular.com/food/search?query=korean
+    
+
+
+Search All Food (food)
+{{baseUrl}}/food/search?query=korea
+
+Search Menu Items (food -> menu items)
+
+{{baseUrl}}/recipes/complexSearch?cuisine=korean
+
+{{baseUrl}}/recipes/complexSearch?query=korea&offset=606&number=100
+
+{{baseUrl}}/recipes/complexSearch?query=korea
