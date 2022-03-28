@@ -1,17 +1,15 @@
 
-# Korean Food!
+# Breakfast Food!
 
 ### To Do 
 
-+ Find an API for korean receipts 
-    - Might have to create my own. If so, just find like 20 receipts
+1. Infinite Scrolls 
+    - Load/Add one more time each time it's scrolled to bottom
+    - Don't forget Loading... icon  
 
-+ Decide how to fetch+display next contents 
-    - Can we load more data as we scroll down without using j-Query? 
+2. Learn how to adjust Container to fixed-size then adding more into it. 
 
-+ Filter by spicyness
-    - Number of ingrendts 
-    - Main general ingredeints use 
+3. 
 
 
 ### Finished

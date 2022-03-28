@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: lightyellow;
 
-    min-height: 100vh
+    min-height: 100vh;
 }
 
 h1, h2 {
@@ -80,40 +80,43 @@ footer {
 .container-grid {
     width: 90%;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: none;
+    grid-template-columns: 1fr;
 
-    background-color: #2196F3;
     margin: auto;
     
-    gap: 20px 10px;
-    padding: 10px;
-
     
 }
 
 .container-grid-items {
     background-color: lightgreen;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    font-size: 30px;
+    border: 10px solid black;
 
-    height: 100%;
-    width: 100%;
-    
     text-align: center;
+
+    margin: 2% 0;
+}
+.container-grid-items:first-child {
+    margin: 0;
+
 }
 
-.container-grid-items h3, p {
-    color: purple;
-    margin: 0;
-    border-style: solid;
-    
+.container-grid-items h3 {
+    color: black;
+    margin: 1%;
+    font-size: 3rem;
 }
 
 .container-grid-items img {
     margin: 0;
-    border: solid brown 10px;
+    border: solid white 10px;
 
-    width: 90%;
-    height: 50%;
+    height: 40vh;
+    width: 60vh;
+}
+
+.container-grid-items p {
+    font-size: 2rem;
+    width: 80%;
+    margin: 1% auto;
 }
