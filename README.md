@@ -21,10 +21,11 @@
 1. Infinite scroll
     - https://javascript.plainenglish.io/building-an-infinite-scroll-with-vanilla-javascript-32810bae9a8c
 
-2. spoonacular
-    - https://api.spoonacular.com/food/search?query=korean
+2. https://www.themealdb.com/ 
+    - (changed from spoonacular; this will be used for my future Django app)
     
 
+# Trash
 
 Search All Food (food)
 {{baseUrl}}/food/search?query=korea
